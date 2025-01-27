@@ -92,7 +92,7 @@ while True:
     game_on = True
     player_flag = False
 
-    os.system('clear')
+    os.system('cls')
 
     print(game_art.welcome_art)
     print("Estas son las posiciones del tablero:")
