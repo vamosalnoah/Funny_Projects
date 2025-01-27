@@ -106,7 +106,7 @@ while True:
     while game_on:
         while True:
             show_game_board(current_game_board)
-            position = int(input(f"{player_flag}: Elige posición: "))
+            position = int(input(f"{player(player_flag)}: Elige posición: "))
 
             success = update_game_board(player_flag, position)
 
